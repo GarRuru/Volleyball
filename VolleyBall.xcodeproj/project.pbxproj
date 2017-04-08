@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		707876C91E920779004DC9C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707876C81E920779004DC9C7 /* AppDelegate.swift */; };
+		707876CB1E920779004DC9C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707876CA1E920779004DC9C7 /* ViewController.swift */; };
+		707876CE1E920779004DC9C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 707876CC1E920779004DC9C7 /* Main.storyboard */; };
+		707876D01E920779004DC9C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 707876CF1E920779004DC9C7 /* Assets.xcassets */; };
+		707876D31E920779004DC9C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 707876D11E920779004DC9C7 /* LaunchScreen.storyboard */; };
+		707876DE1E920779004DC9C7 /* VolleyBallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707876DD1E920779004DC9C7 /* VolleyBallTests.swift */; };
+		707876E91E920779004DC9C7 /* VolleyBallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707876E81E920779004DC9C7 /* VolleyBallUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		707876DA1E920779004DC9C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 707876BD1E920779004DC9C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 707876C41E920779004DC9C7;
+			remoteInfo = VolleyBall;
+		};
+		707876E51E920779004DC9C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 707876BD1E920779004DC9C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 707876C41E920779004DC9C7;
+			remoteInfo = VolleyBall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		707876C51E920779004DC9C7 /* VolleyBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolleyBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		707876C81E920779004DC9C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		707876CA1E920779004DC9C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		707876CD1E920779004DC9C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		707876CF1E920779004DC9C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		707876D21E920779004DC9C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		707876D41E920779004DC9C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		707876D91E920779004DC9C7 /* VolleyBallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VolleyBallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		707876DD1E920779004DC9C7 /* VolleyBallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolleyBallTests.swift; sourceTree = "<group>"; };
+		707876DF1E920779004DC9C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		707876E41E920779004DC9C7 /* VolleyBallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VolleyBallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		707876E81E920779004DC9C7 /* VolleyBallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolleyBallUITests.swift; sourceTree = "<group>"; };
+		707876EA1E920779004DC9C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		707876C21E920779004DC9C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707876D61E920779004DC9C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707876E11E920779004DC9C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		707876BC1E920779004DC9C7 = {
+			isa = PBXGroup;
+			children = (
+				707876C71E920779004DC9C7 /* VolleyBall */,
+				707876DC1E920779004DC9C7 /* VolleyBallTests */,
+				707876E71E920779004DC9C7 /* VolleyBallUITests */,
+				707876C61E920779004DC9C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		707876C61E920779004DC9C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				707876C51E920779004DC9C7 /* VolleyBall.app */,
+				707876D91E920779004DC9C7 /* VolleyBallTests.xctest */,
+				707876E41E920779004DC9C7 /* VolleyBallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		707876C71E920779004DC9C7 /* VolleyBall */ = {
+			isa = PBXGroup;
+			children = (
+				707876C81E920779004DC9C7 /* AppDelegate.swift */,
+				707876CA1E920779004DC9C7 /* ViewController.swift */,
+				707876CC1E920779004DC9C7 /* Main.storyboard */,
+				707876CF1E920779004DC9C7 /* Assets.xcassets */,
+				707876D11E920779004DC9C7 /* LaunchScreen.storyboard */,
+				707876D41E920779004DC9C7 /* Info.plist */,
+			);
+			path = VolleyBall;
+			sourceTree = "<group>";
+		};
+		707876DC1E920779004DC9C7 /* VolleyBallTests */ = {
+			isa = PBXGroup;
+			children = (
+				707876DD1E920779004DC9C7 /* VolleyBallTests.swift */,
+				707876DF1E920779004DC9C7 /* Info.plist */,
+			);
+			path = VolleyBallTests;
+			sourceTree = "<group>";
+		};
+		707876E71E920779004DC9C7 /* VolleyBallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				707876E81E920779004DC9C7 /* VolleyBallUITests.swift */,
+				707876EA1E920779004DC9C7 /* Info.plist */,
+			);
+			path = VolleyBallUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		707876C41E920779004DC9C7 /* VolleyBall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 707876ED1E920779004DC9C7 /* Build configuration list for PBXNativeTarget "VolleyBall" */;
+			buildPhases = (
+				707876C11E920779004DC9C7 /* Sources */,
+				707876C21E920779004DC9C7 /* Frameworks */,
+				707876C31E920779004DC9C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VolleyBall;
+			productName = VolleyBall;
+			productReference = 707876C51E920779004DC9C7 /* VolleyBall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		707876D81E920779004DC9C7 /* VolleyBallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 707876F01E920779004DC9C7 /* Build configuration list for PBXNativeTarget "VolleyBallTests" */;
+			buildPhases = (
+				707876D51E920779004DC9C7 /* Sources */,
+				707876D61E920779004DC9C7 /* Frameworks */,
+				707876D71E920779004DC9C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				707876DB1E920779004DC9C7 /* PBXTargetDependency */,
+			);
+			name = VolleyBallTests;
+			productName = VolleyBallTests;
+			productReference = 707876D91E920779004DC9C7 /* VolleyBallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		707876E31E920779004DC9C7 /* VolleyBallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 707876F31E920779004DC9C7 /* Build configuration list for PBXNativeTarget "VolleyBallUITests" */;
+			buildPhases = (
+				707876E01E920779004DC9C7 /* Sources */,
+				707876E11E920779004DC9C7 /* Frameworks */,
+				707876E21E920779004DC9C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				707876E61E920779004DC9C7 /* PBXTargetDependency */,
+			);
+			name = VolleyBallUITests;
+			productName = VolleyBallUITests;
+			productReference = 707876E41E920779004DC9C7 /* VolleyBallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		707876BD1E920779004DC9C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Yu-Hsuan Chen";
+				TargetAttributes = {
+					707876C41E920779004DC9C7 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					707876D81E920779004DC9C7 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 707876C41E920779004DC9C7;
+					};
+					707876E31E920779004DC9C7 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 707876C41E920779004DC9C7;
+					};
+				};
+			};
+			buildConfigurationList = 707876C01E920779004DC9C7 /* Build configuration list for PBXProject "VolleyBall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 707876BC1E920779004DC9C7;
+			productRefGroup = 707876C61E920779004DC9C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				707876C41E920779004DC9C7 /* VolleyBall */,
+				707876D81E920779004DC9C7 /* VolleyBallTests */,
+				707876E31E920779004DC9C7 /* VolleyBallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		707876C31E920779004DC9C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707876D31E920779004DC9C7 /* LaunchScreen.storyboard in Resources */,
+				707876D01E920779004DC9C7 /* Assets.xcassets in Resources */,
+				707876CE1E920779004DC9C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707876D71E920779004DC9C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707876E21E920779004DC9C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		707876C11E920779004DC9C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707876CB1E920779004DC9C7 /* ViewController.swift in Sources */,
+				707876C91E920779004DC9C7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707876D51E920779004DC9C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707876DE1E920779004DC9C7 /* VolleyBallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707876E01E920779004DC9C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707876E91E920779004DC9C7 /* VolleyBallUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		707876DB1E920779004DC9C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 707876C41E920779004DC9C7 /* VolleyBall */;
+			targetProxy = 707876DA1E920779004DC9C7 /* PBXContainerItemProxy */;
+		};
+		707876E61E920779004DC9C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 707876C41E920779004DC9C7 /* VolleyBall */;
+			targetProxy = 707876E51E920779004DC9C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		707876CC1E920779004DC9C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				707876CD1E920779004DC9C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		707876D11E920779004DC9C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				707876D21E920779004DC9C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		707876EB1E920779004DC9C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		707876EC1E920779004DC9C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		707876EE1E920779004DC9C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VolleyBall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Yu-Hsuan-Chen.VolleyBall";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		707876EF1E920779004DC9C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VolleyBall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Yu-Hsuan-Chen.VolleyBall";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		707876F11E920779004DC9C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VolleyBallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Yu-Hsuan-Chen.VolleyBallTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VolleyBall.app/VolleyBall";
+			};
+			name = Debug;
+		};
+		707876F21E920779004DC9C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VolleyBallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Yu-Hsuan-Chen.VolleyBallTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VolleyBall.app/VolleyBall";
+			};
+			name = Release;
+		};
+		707876F41E920779004DC9C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VolleyBallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Yu-Hsuan-Chen.VolleyBallUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VolleyBall;
+			};
+			name = Debug;
+		};
+		707876F51E920779004DC9C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VolleyBallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Yu-Hsuan-Chen.VolleyBallUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = VolleyBall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		707876C01E920779004DC9C7 /* Build configuration list for PBXProject "VolleyBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				707876EB1E920779004DC9C7 /* Debug */,
+				707876EC1E920779004DC9C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		707876ED1E920779004DC9C7 /* Build configuration list for PBXNativeTarget "VolleyBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				707876EE1E920779004DC9C7 /* Debug */,
+				707876EF1E920779004DC9C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		707876F01E920779004DC9C7 /* Build configuration list for PBXNativeTarget "VolleyBallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				707876F11E920779004DC9C7 /* Debug */,
+				707876F21E920779004DC9C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		707876F31E920779004DC9C7 /* Build configuration list for PBXNativeTarget "VolleyBallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				707876F41E920779004DC9C7 /* Debug */,
+				707876F51E920779004DC9C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 707876BD1E920779004DC9C7 /* Project object */;
+}

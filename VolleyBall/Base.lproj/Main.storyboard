@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="72L-Un-bYj">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="VolleyBall" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HAIKYUU" translatesAutoresizingMaskIntoConstraints="NO" id="eOn-WO-Tkj">
+                                <rect key="frame" x="0.0" y="64" width="414" height="459"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="排球" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="868-bg-IZO">
+                                <rect key="frame" x="0.0" y="512" width="140" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="50"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="永不放棄！！" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="idR-pN-J4X">
+                                <rect key="frame" x="129" y="553" width="324" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="50"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dG9-MP-Uh9">
+                                <rect key="frame" x="129" y="639" width="156" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="角色介紹&gt;&gt;"/>
+                                <connections>
+                                    <segue destination="LaR-gK-0Ux" kind="show" id="bhZ-ks-Xg5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" selectedImage="home" systemItem="more" id="Dzp-ai-wy1"/>
+                    <navigationItem key="navigationItem" title="Home" id="VtM-m3-ASB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2048" y="-627"/>
+        </scene>
+        <!--角色介紹-->
+        <scene sceneID="ddR-qf-Zfu">
+            <objects>
+                <tableViewController id="LaR-gK-0Ux" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="140" sectionHeaderHeight="28" sectionFooterHeight="28" id="NgG-Gp-BfU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="DIv-CJ-0g9">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="checkmark" indentationWidth="10" rowHeight="101" id="E8U-1A-b2M">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="101"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="E8U-1A-b2M" id="ThL-Yt-m1w">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="101"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hinata" translatesAutoresizingMaskIntoConstraints="NO" id="QoS-cA-53o">
+                                                    <rect key="frame" x="18" y="0.0" width="100" height="100"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Oh2-63-dm4">
+                                                    <rect key="frame" x="113" y="0.0" width="241" height="93"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <string key="text">日向翔陽
+
+本作主角，身高164，以成為「小巨人」為目標。</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="checkmark" indentationWidth="10" rowHeight="101" id="5Fz-MF-nR9">
+                                        <rect key="frame" x="0.0" y="101" width="414" height="101"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5Fz-MF-nR9" id="opz-dk-bcH">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="101"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tobio" translatesAutoresizingMaskIntoConstraints="NO" id="oTJ-FV-wmM">
+                                                    <rect key="frame" x="18" y="0.0" width="100" height="100"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Qep-Uv-sNl">
+                                                    <rect key="frame" x="112" y="7" width="241" height="93"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <string key="text">影山飛雄
+
+本作主角之二，最強舉球、與日線可打出「怪人快攻」。</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="checkmark" indentationWidth="10" rowHeight="101" id="m6F-te-ExG">
+                                        <rect key="frame" x="0.0" y="202" width="414" height="101"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="m6F-te-ExG" id="b4T-hl-qCE">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="101"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="asaki" translatesAutoresizingMaskIntoConstraints="NO" id="pEl-wd-U5f">
+                                                    <rect key="frame" x="18" y="0.0" width="100" height="100"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="x1z-tu-OXV">
+                                                    <rect key="frame" x="116" y="4" width="241" height="93"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <string key="text">東峰旭
+
+球隊的王牌攻擊手，但是性格稍嫌軟弱</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="checkmark" indentationWidth="10" rowHeight="101" id="rlB-nj-uWE">
+                                        <rect key="frame" x="0.0" y="303" width="414" height="101"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rlB-nj-uWE" id="hv7-uR-vIW">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="101"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="run" translatesAutoresizingMaskIntoConstraints="NO" id="8bm-ow-XP9">
+                                                    <rect key="frame" x="18" y="0.0" width="100" height="100"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7pc-aa-idg">
+                                                    <rect key="frame" x="118" y="4" width="241" height="93"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <string key="text">田中龍之介
+
+主攻手，性格豪爽</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="checkmark" indentationWidth="10" rowHeight="101" id="7ZZ-Oa-JJu">
+                                        <rect key="frame" x="0.0" y="404" width="414" height="101"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7ZZ-Oa-JJu" id="yrW-st-85v">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="101"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="11" translatesAutoresizingMaskIntoConstraints="NO" id="REr-Lg-guS">
+                                                    <rect key="frame" x="18" y="0.0" width="100" height="100"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Qbo-Dr-nbN">
+                                                    <rect key="frame" x="119" y="7" width="241" height="93"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <string key="text">月島螢
+
+以及高的身高在隊伍中擔任欄中，不是很喜歡影山跟日向。</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="checkmark" indentationWidth="10" rowHeight="101" id="ATy-75-aiG">
+                                        <rect key="frame" x="0.0" y="505" width="414" height="101"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ATy-75-aiG" id="Q0C-vD-lTb">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="101"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nisinoya" translatesAutoresizingMaskIntoConstraints="NO" id="e5h-zz-smD">
+                                                    <rect key="frame" x="18" y="0.0" width="100" height="100"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="QuF-pC-ulT">
+                                                    <rect key="frame" x="116" y="8" width="241" height="93"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <string key="text">西谷夕
+
+烏野最強自由球員，防守能力一流。
+身高只有159</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="LaR-gK-0Ux" id="sLJ-Gb-w5E"/>
+                            <outlet property="delegate" destination="LaR-gK-0Ux" id="da2-ep-VTB"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Character" selectedImage="avatar" id="Y1v-CK-YGO"/>
+                    <navigationItem key="navigationItem" title="角色介紹" id="a41-5i-WqQ"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TCA-41-7Se" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2886" y="-628"/>
+        </scene>
+        <!--成為排球人的第一步-->
+        <scene sceneID="7fV-DK-94B">
+            <objects>
+                <viewController id="y1r-c4-Z2R" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uGb-dr-woy"/>
+                        <viewControllerLayoutGuide type="bottom" id="4Cb-ZT-dET"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Fzo-Ea-uZm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="htbavbp" translatesAutoresizingMaskIntoConstraints="NO" id="wG6-fU-nNC">
+                                <rect key="frame" x="87" y="117" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hahaglassking" translatesAutoresizingMaskIntoConstraints="NO" id="Jfn-ON-aO2">
+                                <rect key="frame" x="87" y="347" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="(推薦)如何成為排球人" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="bwu-XR-Dme">
+                                <rect key="frame" x="42" y="253" width="330" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="v4f-82-Eee">
+                                <rect key="frame" x="42" y="507" width="330" height="124"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">(推薦)眼鏡王！
+了解更多關於排球的大小事</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hnf-Yz-cys">
+                                <rect key="frame" x="142" y="347" width="130" height="122"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="BWC-bD-0xm" kind="push" id="Iu1-f3-9kN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="BFz-QK-9fx"/>
+                    <navigationItem key="navigationItem" title="成為排球人的第一步" id="Aep-PX-BWx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bHv-ys-3u4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2407" y="432"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="OfQ-Qz-Iyv">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="72L-Un-bYj" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="IVc-G6-puH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="a00-TI-oVe" kind="relationship" relationship="rootViewController" id="6MN-2y-uNA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UXl-ic-L7d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="120.8" y="792.95352323838085"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="kIb-oQ-XIu">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="a00-TI-oVe" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="NLe-BQ-ngb"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="G1N-mB-XfZ">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="lg1-Ai-8xf"/>
+                        <segue destination="y1r-c4-Z2R" kind="relationship" relationship="viewControllers" id="oeS-d5-I2A"/>
+                        <segue destination="LVG-Aj-0ow" kind="relationship" relationship="viewControllers" id="sKD-uu-vNt"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TDD-Ln-ZyT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1075.3623188405797" y="138.58695652173915"/>
+        </scene>
+        <!--關於作者-->
+        <scene sceneID="Csr-Iz-VK1">
+            <objects>
+                <viewController id="BWC-bD-0xm" customClass="ViewController" customModule="VolleyBall" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ssD-lf-9Ql"/>
+                        <viewControllerLayoutGuide type="bottom" id="6ee-4b-Szr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZTf-qh-jr2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GarRuru" translatesAutoresizingMaskIntoConstraints="NO" id="MwP-gf-W7Z">
+                                <rect key="frame" x="34" y="100" width="360" height="360"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="KtR-WL-rL4">
+                                <rect key="frame" x="43" y="479" width="320" height="155"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">YA~That's me.
+沒想到你居然找得到這一頁(/ω＼)
+
+
+我是GarRuru，喜歡打排球
+請多指教。
+Facebook:陳育軒(Nick Chen)</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" selectedImage="home" systemItem="mostViewed" id="7ds-cJ-taV"/>
+                    <navigationItem key="navigationItem" title="關於作者" id="Ypp-9e-GDq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gdg-m7-NhS" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3473.913043478261" y="430.43478260869568"/>
+        </scene>
+        <!--帥-->
+        <scene sceneID="jbg-Bk-xsm">
+            <objects>
+                <viewController id="LVG-Aj-0ow" customClass="ViewController" customModule="VolleyBall" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VKW-jc-emm"/>
+                        <viewControllerLayoutGuide type="bottom" id="qfo-sk-1A6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QWs-E8-cp8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="petperpan" translatesAutoresizingMaskIntoConstraints="NO" id="aFF-Ur-XLB">
+                                <rect key="frame" x="34" y="100" width="360" height="360"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xSG-cP-3Ir">
+                                <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Peter 好帥" id="nVe-d7-zbY"/>
+                                </items>
+                            </navigationBar>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZxC-J3-iW7">
+                                <rect key="frame" x="7" y="687" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <items>
+                                    <tabBarItem systemItem="favorites" id="Ree-e3-77p"/>
+                                    <tabBarItem systemItem="more" id="Zn6-wb-8wB"/>
+                                </items>
+                            </tabBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="BaT-Pj-gAa">
+                                <rect key="frame" x="34" y="483" width="360" height="162"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">彼得潘好帥～～～
+彼得潘好帥～～～
+彼得潘好帥～～～
+彼得潘好帥～～～
+彼得潘好帥～～～
+彼得潘好帥～～～
+彼得潘好帥～～～
+彼得潘好帥～～～
+彼得潘好帥～～～
+彼得潘好帥～～～
+彼得潘好帥～～～</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" selectedImage="home" systemItem="search" id="zjT-MB-AqL"/>
+                    <navigationItem key="navigationItem" title="帥" id="ZmZ-v5-Gk5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R3P-LP-rI8" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1262.3188405797102" y="846.19565217391312"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="11" width="151" height="143"/>
+        <image name="GarRuru" width="813" height="813"/>
+        <image name="HAIKYUU" width="807" height="871"/>
+        <image name="asaki" width="153" height="179"/>
+        <image name="avatar" width="32" height="32"/>
+        <image name="hahaglassking" width="391" height="371"/>
+        <image name="hinata" width="156" height="143"/>
+        <image name="home" width="64" height="64"/>
+        <image name="htbavbp" width="243" height="141"/>
+        <image name="nisinoya" width="156" height="169"/>
+        <image name="petperpan" width="1080" height="1080"/>
+        <image name="run" width="146" height="157"/>
+        <image name="tobio" width="150" height="146"/>
+    </resources>
+</document>
